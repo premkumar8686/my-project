@@ -11,6 +11,5 @@ export default function AdminLogin() {
         </div>
         {/* Row Section End */}
     </section>
-
   )
 }
