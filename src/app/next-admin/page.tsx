@@ -10,6 +10,6 @@ export default function AdminLogin() {
             </div>
         </div>
         {/* Row Section End */}
-    </section>
+    </section> 
   )
 }
