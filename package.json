@@ -6,13 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@mui/icons-material": "^7.3.6",
-    "@mui/material": "^7.3.6",
+    "@heroui/react": "^2.8.5",
+    "@heroui/system": "^2.4.23",
+    "@heroui/theme": "^2.4.23",
+    "framer-motion": "^12.23.25",
     "next": "16.0.7",
     "postcss": "^8.5.6",
     "react": "19.2.0",
@@ -26,6 +27,8 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.7",
+    "prettier": "3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.1.17",
     "typescript": "^5"
   }
